@@ -11,6 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.lista-habilidades li:hover,
+#secao-ferramentas li:hover {
+    transform: scale(1.08); 
+    cursor: pointer;
+}
 body {
     background-color: #f7f9fa;
     color: #1a2a33;
@@ -35,6 +40,7 @@ header nav ul,
 #secao-ferramentas ul,
 .lista-habilidades {
     color: #ffffff;
+    transition: transform 0.3s ease;
 }
 
 a, button {
@@ -176,6 +182,7 @@ section h2 {
     gap: 15px;
     margin-bottom: 30px;
     font-family: 'Questrial', sans-serif;
+    transition: transform 0.3s ease;
 }
 
 .lista-habilidades li {
